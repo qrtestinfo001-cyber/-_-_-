@@ -3,15 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <title>メインメニュー</title>
-</head>
-<body>
-  <h1></h1>
 
-  <ul>
-    <li><a href="shift.HTML">📋 シフト</a></li>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      padding: 20px;
+    }
+
+    ul.menu {
+      list-style: none;
+      padding: 0;
+      max-width: 320px;
+      margin: 0 auto;   /* 置中 */
+    }
+
+    ul.menu li {
+      margin-bottom: 20px;
+    }
+
+    ul.menu a {
+      display: block;
+      padding: 24px 20px;        /* ← 框大小重點 */
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background: #f9f9f9;
+    }
+
+    ul.menu a:hover {
+      background: #eaeaea;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul class="menu">
+    <li><a href="shift.html">📋 シフト</a></li>
     <li><a href="timetable.html">⏰ タイムスケジュール</a></li>
   </ul>
+
 </body>
 </html>
-
-
